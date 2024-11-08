@@ -1,0 +1,17 @@
+.viewer-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.viewer-wrapper {
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.viewer-space {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}

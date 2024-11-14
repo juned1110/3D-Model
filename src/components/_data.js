@@ -3,6 +3,7 @@ export const units = [
     id: "47d8c30c-e95c-58b2-b79e-51b12b6c69c8",
     name: "#01-32S",
     rental: 5200,
+    status: "Available",
     coordinates: [
       {
         levelIndex: 0,
@@ -40,6 +41,7 @@ export const units = [
     id: "1059687f-61bf-5876-babc-f4a9231caf7d",
     name: "#01-39S",
     rental: 2200,
+    status: "Occupied",
     coordinates: [
       {
         levelIndex: 0,
@@ -71,6 +73,7 @@ export const units = [
     id: "7ab2dffc-5f62-5cfd-92e5-2cd0c628aa23",
     name: "#01-16S",
     rental: 7400,
+    status: "Available",
     coordinates: [
       {
         levelIndex: 0,
@@ -114,6 +117,7 @@ export const units = [
     id: "2c806caf-a818-532e-ae45-196b6fad0565",
     name: "#01-52R",
     rental: 9900,
+    status: "Available",
     coordinates: [
       {
         levelIndex: 0,
@@ -169,6 +173,7 @@ export const units = [
     id: "ac514581-513c-51bf-80e0-3143015b3d53",
     name: "#01-07S",
     rental: 5800,
+    status: "Occupied",
     coordinates: [
       {
         levelIndex: 0,
@@ -224,6 +229,7 @@ export const units = [
     id: "1d6c35bb-18a7-5d5f-bab4-f78e5218dbba",
     name: "#01-78R",
     rental: 11200,
+    status: "Available",
     coordinates: [
       {
         levelIndex: 0,
@@ -252,9 +258,10 @@ export const units = [
     ],
   },
   {
-    id: "f9bde41b-d29d-5b28-bf91-0e9075f9ac8e", // Unique ID
+    id: "f9bde41b-d29d-5b28-bf91-0e9075f9ac8e",
     name: "#01-42S",
-    rental: 2200, // Rental price (you can adjust this)
+    rental: 2200,
+    status: "Occupied",
     coordinates: [
       {
         levelIndex: 0,
@@ -265,19 +272,19 @@ export const units = [
       {
         levelIndex: 0,
         x: 44.32592954186138,
-        z: -27.323509795391942,
+        z: -22.323509795391942,
         elevation: 3.0000000000000018,
       },
       {
         levelIndex: 0,
         x: 41.74696581715217,
-        z: -27.290903265703875,
+        z: -22.290903265703875,
         elevation: 3,
       },
       {
         levelIndex: 0,
         x: 41.740639616789174,
-        z: -30.13914360487882,
+        z: -20.13914360487882,
         elevation: 3,
       },
     ],

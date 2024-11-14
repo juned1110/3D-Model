@@ -1,10 +1,10 @@
 import React, { memo, useEffect } from "react";
 import PropTypes from "prop-types";
-import { loadSmplrJs } from "@smplrspace/smplr-loader"; // Import loadSmplrJs
+import { loadSmplrJs } from "@smplrspace/smplr-loader"; // Import smplr.js
 
 const Viewer = memo(({ mode, onReady }) => {
   useEffect(() => {
-    // Load the smplr.js script asynchronously
+    // Load smplr.js and initialize the space
     loadSmplrJs()
       .then((smplr) => {
         const space = new smplr.Space({
@@ -13,7 +13,6 @@ const Viewer = memo(({ mode, onReady }) => {
           containerId: "smplr-container", // ID of the container where the viewer will be loaded
         });
 
-        // Start the viewer once smplr has been loaded
         space.startViewer({
           preview: true,
           mode,

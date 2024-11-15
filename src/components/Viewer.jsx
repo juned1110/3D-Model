@@ -8,8 +8,8 @@ const Viewer = memo(({ mode, onReady }) => {
     loadSmplrJs()
       .then((smplr) => {
         const space = new smplr.Space({
-          spaceId: "76576eec-688c-49e9-b0af-23af5811d0cc", // Your space ID
-          clientToken: "pub_eb760fee77634cdab2fe31146fc371c2", // Your client token
+          spaceId: "4e19f662-df3f-47ef-b79f-298d8fde4a3f", // Your space ID
+          clientToken: "pub_c6e114cddb3b440bbef46643007223d9", // Your client token
           containerId: "smplr-container", // ID of the container where the viewer will be loaded
         });
 
